@@ -1,0 +1,153 @@
+@font-face {
+	font-family:'Avenir-Book';
+	src: url('Avenir-Book_gdi.eot');
+	src: url('Avenir-Book_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Avenir-Book_gdi.woff') format('woff'),
+		url('Avenir-Book_gdi.ttf') format('truetype'),
+		url('Avenir-Book_gdi.svg#Avenir-Book') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'FranklinGothic-Book';
+	src: url('FranklinGothic-Book_gdi.eot');
+	src: url('FranklinGothic-Book_gdi.eot?#iefix') format('embedded-opentype'),
+		url('FranklinGothic-Book_gdi.woff') format('woff'),
+		url('FranklinGothic-Book_gdi.ttf') format('truetype'),
+		url('FranklinGothic-Book_gdi.svg#FranklinGothic-Book') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-02DC;
+}
+
+@font-face {
+	font-family:'AGaramondPro-Regular';
+	src: url('AGaramondPro-Regular_gdi.eot');
+	src: url('AGaramondPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('AGaramondPro-Regular_gdi.woff') format('woff'),
+		url('AGaramondPro-Regular_gdi.ttf') format('truetype'),
+		url('AGaramondPro-Regular_gdi.svg#AGaramondPro-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-00FE;
+}
+
+
+body{
+	background-color:white;
+	width:100%;
+	height:auto;
+	display: block;
+}
+
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+
+div, header {display: block;}
+
+#top-header{
+	position: relative;
+    background-color: black;
+    height:100%;
+    width:100%;
+    min-width: 960px;
+    z-index: 10;
+    text-align: center;
+    overflow: hidden;
+}
+
+.vid{
+	z-index: -1;
+	opacity: 0.5;
+	display: block;
+	position: absolute;
+}
+
+.top-header-content{
+	color: white;
+	max-width: 960px;
+	margin: 0 auto;
+	height: 700px;
+/*	border:1px solid red;*/
+}
+
+#top-header-intro{
+	position: absolute;
+/*    border: 1px solid green;*/
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.er-title{
+	font-family:'FranklinGothic-Book', sans-serif;
+	font-weight: 800;
+	line-height: 25px;
+	display: block;
+	font-size: 19px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 10px 0px;
+    color: #ebebeb;
+    text-transform: uppercase;
+}
+
+#er-about{
+	/*font-family: 'Avenir-Book', sans-serif;*/
+	font-family:'AGaramondPro-Regular';
+	font-weight: 200;
+	font-size: 2.2em;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+}
+
+#er-about p{
+    margin: 0 0 40px;
+}
+
+#er-about a{
+	color:#ebebeb;
+}
+
+#header-menu{
+	font-family:'FranklinGothic-Book', sans-serif;
+	position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 90px 0 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+#header-menu span{
+	color: #ebebeb;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 14px;
+
+}
+
+#nav-menu{padding-bottom: 90px;}
+
+#nav-menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
